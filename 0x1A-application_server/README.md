@@ -2,13 +2,13 @@
 
 This project encompasses various tasks aimed at configuring a web server (nginx) with an application server (Gunicorn).
 
-![c7d1ed0a2e10d1b4e9b3](https://github.com/Official0mega/alx-system_engineering-devops/assets/122806822/6afdaeaf-1d59-4e46-8d6d-49e9a9f9a51d)
+![c7d1ed0a2e10d1b4e9b3](https://github.com/Tosin567/alx-system_engineering-devops/assets/122806822/6afdaeaf-1d59-4e46-8d6d-49e9a9f9a51d)
 
 
 ## Tasks To Complete
 
 + [x] 0. Setting Up Development with Python
-  - The objective is to serve the code developed for the [AirBnB clone v2 - Web framework](https://github.com/Official0mega/AirBnB_clone_v2) on `web-01`. This task focuses on setting up the development environment, crucial for testing and debugging before production deployment.
+  - The objective is to serve the code developed for the [AirBnB clone v2 - Web framework](https://github.com/Tosin567/AirBnB_clone_v2) on `web-01`. This task focuses on setting up the development environment, crucial for testing and debugging before production deployment.
   - **Requirements:**
     - Ensure that task #3 of your [SSH project](../0x0B-ssh/README.md) is completed for `web-01` to allow the checker to connect to your servers.
     - Git clone your `AirBnB_clone_v2` on your `web-01` server.
@@ -43,17 +43,17 @@ This project encompasses various tasks aimed at configuring a web server (nginx)
     - To run a `Gunicorn` instance as a detached process, you can use `tmux`.
 
 + [x] 4. Serving Your API
-  - Serve the content from [AirBnB clone v3 - RESTful API](https://github.com/Official0mega/AirBnB_clone_v3) on `web-01`.
+  - Serve the content from [AirBnB clone v3 - RESTful API](https://github.com/Tosin567/AirBnB_clone_v3) on `web-01`.
   - **Requirements:**
     - Git clone your `AirBnB_clone_v3`.
     - Configure `Nginx` so that the route `/api/` points to a `Gunicorn` instance on port `5002`. Ensure that `Nginx` serves this page locally and on its public IP on port `80`.
-    - Bind `Gunicorn` to `api/v1/app.py`. Import data (and environment variables) from [this project](https://github.com/Official0mega/AirBnB_clone_v2).
+    - Bind `Gunicorn` to `api/v1/app.py`. Import data (and environment variables) from [this project](https://github.com/Tosin567/AirBnB_clone_v2).
     - Upload your `Nginx` config file as `4-app_server-nginx_config`.
 
 + [x] 5. Serving Your AirBnB Clone
-  - Serve what you've built for [AirBnB clone - Web dynamic](https://github.com/Official0mega/AirBnB_clone_v4) on `web-01`.
+  - Serve what you've built for [AirBnB clone - Web dynamic](https://github.com/Tosin567/AirBnB_clone_v4) on `web-01`.
   - **Requirements:**
-    - Git clone your [AirBnB_clone_v4](https://github.com/Official0mega/AirBnB_clone_v4).
+    - Git clone your [AirBnB_clone_v4](https://github.com/Tosin567/AirBnB_clone_v4).
     - Your `Gunicorn` instance should serve content from web_dynamic/2-hbnb.py on port `5003`.
     - Configure `Nginx` to route `/` to your `Gunicorn` instance.
     - Set up `Nginx` to serve static assets found in `web_dynamic/static/`.
